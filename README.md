@@ -1,3 +1,6 @@
+> [!NOTE]  
+> This fork was created to update the app to work on modern Android devices and to add in new commands to the app's capabilities.
+
 WowWee RoboSapien Blue RoboRaptor Blue Android SDK
 ================================
 
