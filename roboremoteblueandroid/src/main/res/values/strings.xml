@@ -54,6 +54,13 @@
 
 	<string name="demo1">Demo 1</string>
 	<string name="demo2">Demo 2</string>
+	<string name="all_demo">All Demo</string>
+	<string name="dance">Dance</string>
+	<string name="bulldozer">Bulldozer</string>
+	<string name="turn_left_step">Turn Left Step</string>
+	<string name="turn_right_step">Turn Right Step</string>
+	<string name="step_forward">Step Forward</string>
+	<string name="step_back">Step Back</string>
 
 	<string name="sleep">Sleep</string>
 	<string name="listen">Listen</string>
@@ -103,6 +110,13 @@
 	<string name="high_five_vc">High five</string>
 	<string name="demo_one_vc">Demo one</string>
 	<string name="demo_two_vc">Demo two</string>
+	<string name="all_demo_vc">All demo</string>
+	<string name="dance_vc">Dance</string>
+	<string name="bulldozer_vc">Bulldozer</string>
+	<string name="turn_left_step_vc">Turn left step</string>
+	<string name="turn_right_step_vc">Turn right step</string>
+	<string name="step_forward_vc">Step forward</string>
+	<string name="step_back_vc">Step back</string>
 	<string name="burp_vc">Burp</string>
 	<string name="whistle_vc">Whistle</string>
 	<string name="roar_vc">Roar</string>

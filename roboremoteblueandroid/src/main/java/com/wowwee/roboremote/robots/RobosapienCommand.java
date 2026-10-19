@@ -576,6 +576,161 @@ public abstract class RobosapienCommand extends BluetoothRobotCommand {
         }
     }
 
+    // Codes absent from the SDK's RobosapienCommandValues; found by probing the robot.
+    public static class AllDemo extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.all_demo;
+        }
+
+        @Override
+        public String getTag() {
+            return "All Demo";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "D0";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.all_demo_vc;
+        }
+    }
+
+    public static class Dance extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.dance;
+        }
+
+        @Override
+        public String getTag() {
+            return "Dance";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "D4";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.dance_vc;
+        }
+    }
+
+    public static class Bulldozer extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.bulldozer;
+        }
+
+        @Override
+        public String getTag() {
+            return "Bulldozer";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "C6";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.bulldozer_vc;
+        }
+    }
+
+    public static class TurnLeftStep extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.turn_left_step;
+        }
+
+        @Override
+        public String getTag() {
+            return "Turn Left Step";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "A0";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.turn_left_step_vc;
+        }
+    }
+
+    public static class TurnRightStep extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.turn_right_step;
+        }
+
+        @Override
+        public String getTag() {
+            return "Turn Right Step";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "A8";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.turn_right_step_vc;
+        }
+    }
+
+    public static class StepForward extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.step_forward;
+        }
+
+        @Override
+        public String getTag() {
+            return "Step Forward";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "A6";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.step_forward_vc;
+        }
+    }
+
+    public static class StepBack extends RobosapienCommand {
+        @Override
+        public int getNameId() {
+            return R.string.step_back;
+        }
+
+        @Override
+        public String getTag() {
+            return "Step Back";
+        }
+
+        @Override
+        protected String getCommandText() {
+            return "A7";
+        }
+
+        @Override
+        public int getVoiceCommandId() {
+            return R.string.step_back_vc;
+        }
+    }
+
     public static class Sleep extends RobosapienCommand {
         @Override
         public int getNameId() {

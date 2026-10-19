@@ -33,6 +33,13 @@ public class Robosapien extends BluetoothRobot {
         addCommand(new RobosapienCommand.LeftArmStrike3());
         addCommand(new RobosapienCommand.Demo1());
         addCommand(new RobosapienCommand.Demo2());
+        addCommand(new RobosapienCommand.AllDemo());
+        addCommand(new RobosapienCommand.Dance());
+        addCommand(new RobosapienCommand.Bulldozer());
+        addCommand(new RobosapienCommand.TurnLeftStep());
+        addCommand(new RobosapienCommand.TurnRightStep());
+        addCommand(new RobosapienCommand.StepForward());
+        addCommand(new RobosapienCommand.StepBack());
         addCommand(new RobosapienCommand.Sleep());
         addCommand(new RobosapienCommand.Listen());
         addCommand(new RobosapienCommand.SFXWhistle());

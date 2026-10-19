@@ -559,6 +559,26 @@
 		    android:tag="Demo 2"
 		    android:text="@string/demo2" />
 
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_alldemo"
+		    style="@style/remote_rs_demo2_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="All Demo"
+		    android:text="@string/all_demo" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_dance"
+		    style="@style/remote_rs_demo2_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Dance"
+		    android:text="@string/dance" />
+
 	</LinearLayout>
 
 	<LinearLayout
@@ -586,6 +606,56 @@
 		    android:layout_gravity="center_horizontal"
 		    android:tag="Listen"
 		    android:text="@string/listen" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_bulldozer"
+		    style="@style/remote_rs_listen_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Bulldozer"
+		    android:text="@string/bulldozer" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_turnleftstep"
+		    style="@style/remote_rs_listen_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Turn Left Step"
+		    android:text="@string/turn_left_step" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_turnrightstep"
+		    style="@style/remote_rs_listen_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Turn Right Step"
+		    android:text="@string/turn_right_step" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_stepforward"
+		    style="@style/remote_rs_listen_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Step Forward"
+		    android:text="@string/step_forward" />
+
+		<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+		    android:id="@+id/button_stepback"
+		    style="@style/remote_rs_listen_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="12dp"
+		    android:tag="Step Back"
+		    android:text="@string/step_back" />
 
 	</LinearLayout>
 
